@@ -1,0 +1,28 @@
+{
+  "name": "blowington-theme",
+  "displayName": "Blowington Theme",
+  "description": "Recreation of Jonathan Blows theme as a VS Code theme",
+  "version": "1.0.0",
+  "publisher": "treuks",
+  "author": "treuks",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "Images/Theme-Logo.png",
+  "repository": {
+    "url": "https://github.com/treuks/blowington-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blowington Theme (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Blowington-color-theme.json"
+      }
+    ]
+  }
+}
